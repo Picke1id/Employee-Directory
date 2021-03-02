@@ -6,9 +6,9 @@ const EmployeeTable = ({ employees }) => {
     useEffect(() => updateSortedEmployees(employees), [employees]);
     
     return (
-        <Table>
+        <Table striped bordered hover responsive="xl" pb={5}>
             <thead >
-                <tr>
+                <tr className="bg-secondary text-white text-center">
                     <th scope="col">Picture</th>
                     <th scope="col"> Title </th>
                     <th scope="col" 
@@ -55,7 +55,7 @@ const EmployeeTable = ({ employees }) => {
                         email,
                         name: { first, last, title } 
                     }) => (
-                        <tr key={email}>
+                        <tr key={email} className="text-center">
                             <td>
                                 <img alt="Employee images" src={thumbnail} />
                             </td>
