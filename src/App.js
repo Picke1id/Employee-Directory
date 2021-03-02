@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import EmployeeTable from './components/EmployeeTable/EmpTable';
-import FilterEmployees from './components/FilterEmployees/employees';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
+import EmployeeTable from './components/EmpTable.js';
+import FilterEmployees from './components/employees.js';
+import Footer from './components/Footer.js';
+import Header from './components/Header.js';
 import { getEmployees } from './utils/api';
 
 function App() {
