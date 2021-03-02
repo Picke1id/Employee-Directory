@@ -2,9 +2,10 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer bg-secondary text-center py-5 h5" >
             <br></br>
-            <p>© Imari Pickens 2021</p>
+            <p className="copyright">© Imari Pickens 2021</p>
+
         </footer>
     );
 };
