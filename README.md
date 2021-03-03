@@ -10,6 +10,7 @@ The motivation behind this project was to create an application utilizing React.
 * React-Bootstrap
 * Bootstrap
 * Axios
+* Random User API
 * HTML
 * Javascript
 * JSON
@@ -38,4 +39,4 @@ After the repository has been cloned, use terminal to change directories into "F
 This project is licensed under the terms of the MIT license.
 
 ## Link
-* Heroku Deployment: ()
+* Heroku Deployment: (https://floating-retreat-50180.herokuapp.com)
